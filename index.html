@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  
    
     <title>Ankun</title>
 </head>
@@ -142,21 +144,101 @@
     </ul>
 
     </div>
-    </aside>
+    <!--/aside-->
     <!--fin de la seccion de educacion-->
+    <!--inicio de softskill and hardskill-->
 
-    <div class="row"></div>
-    <div class="row"></div>
+    <div class="row justify-content-around">
 
+<div class="col-4 w-20 h-20 p-1  text-center justify-content-start">
 
+        <h2>Hard Skill and Soft Skill</h2>
+        <canvas id="myChart" width="20" height="20"></canvas>
+<script>
+const ctx = document.getElementById('myChart');
+const myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['Html', 'Adaptabilidad', 'Git', 'Empatia', 'Php', 'Capacidad de Respuesta', 'TyPscript', 'Paciencia', 'MySql', 'Resolucion de conflictos'],
+        datasets: [{
+            label: 'Hard Skill and Soft Skill', 
+            data: [75,92, 50,98,35,93,50,97,48,99],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)',
+                'rgba(0, 255, 255, 0.2)',
+                'rgba(0, 255, 255, 0.2)',
+                'rgba(173, 255, 47, 0.2)',
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+                'rgba(0, 255, 255, 1)',
+                
+            ],
+            borderWidth: 2
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+</script>
+</div>
 
+ <div class="col-4 w-50 h-50 p-5 m-4 border-5 top-50">
 
-
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagenes/imagen6.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/imagenes/imagen3.jpg" class= "d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/imagen4.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+  <!--fin de la seccion de soft and hard skill-->
   
+
+</div>
+
+</div>
+
+</aside>
+
+
+</div>  
+  
+    
+</div>
    
     
    
- <script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+<script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+ 
 </body>
 </html>
