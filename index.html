@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./bootstrap-5.2.0-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilos.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-  
+    
+    
    
     <title>Ankun</title>
 </head>
@@ -37,8 +38,10 @@
        </div>
        <div class="col-4" >
          <div class="input-group mt-4 w-100 h-50">
-           <input type="text" class="form-control bg-transparent" placeholder="username" aria-label="username" aria-describedby="button-addon2">
+           <input type="text" class="form-control bg-transparent border-0" placeholder="username" aria-label="username" aria-describedby="button-addon2">
+           <input type="text" class="form-control bg-transparent border-0" placeholder="password" aria-label="password" aria-describedby="button-addon2">
            <button class="btn btn-outline-secondary border-0" type="button" id="button-addon2">Loguin</button>
+           
            <div class="dropdown m-1">
             <button class="btn btn-outline-secondary dropdown-toggle  text-danger border-0" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
               Redes
@@ -134,13 +137,13 @@
       <!--inicio de seccion de eduacacion-->
 
     <div class="row m-2">
-      <h3 class="titul3 text-center">Educacion</h3>
+      <h3 class="titul3 text-center">Educación</h3>
       <ul>
         <li> Estudios Primarios Completo: Escuela primaria numero 39 "Nicolas Avellaneda" (Anguil - La Pampa)</li>
         <li> Estudios Secundarios Completo: "Enrique Stiebens", Titulo Bachiller en tecnologias bancarias (Anguil - La Pampa)</li>
         <li> Reparacion y Mantenimiento Informatico: "UNLPAM" (Universidad Nacional de La Pampa)</li>
         <li>Programador Inicial Web: UTN (Universidad de tecnologia Nacional)</li>
-        <li> Curso Full Stack Developer jr Argentina Programa (Ministerio de Desarrollo de la Nacion</li>
+        <li> Curso Full Stack Developer jr Argentina Programa (Ministerio de Desarrollo de la Nacion)</li>
     </ul>
 
     </div>
@@ -148,9 +151,9 @@
     <!--fin de la seccion de educacion-->
     <!--inicio de softskill and hardskill-->
 
-    <div class="row justify-content-around">
+    <div class="row justify-content-lg-around ">
 
-<div class="col-4 w-20 h-20 p-1  text-center justify-content-start">
+<div class="col-4 w-20 h-20 p-1  text-center justify-content-start ">
 
         <h2>Hard Skill and Soft Skill</h2>
         <canvas id="myChart" width="20" height="20"></canvas>
@@ -198,31 +201,61 @@ const myChart = new Chart(ctx, {
 </script>
 </div>
 
- <div class="col-4 w-50 h-50 p-5 m-4 border-5 top-50">
+ <div class="col-4 w-50 h-50 p-lg-5 m-lg-5 border-5 top-100">
 
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./imagenes/imagen6.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./imagenes/imgenprogramador5.jpeg" class="d-block w-75" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="/imagenes/imagen3.jpg" class= "d-block w-100" alt="...">
+        <img src="./imagenes/imagen programador1.jpg" class="d-block w-75" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="./imagenes/imagen4.jpg" class="d-block w-100" alt="...">
+        <img src="./imagenes/imagen programador 2.jpeg" class="d-block w-75" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/imagen programador3.jpg" class="d-block w-75 h-50" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
-  <!--fin de la seccion de soft and hard skill-->
+
+  </div>
+</div>
+<!--fin de la seccion de soft and hard skill-->
   
+<div class="row">
+  <h2 class="proyectos text-center ">Proyectos</h2>
+  <div class="col-4">
+    <img src="./imagenes/Ankun2.jpg" width="300px" alt="">
+  </div>
+    <div class="col-4">
+      <h1 class="ankun text-center">Ankun</h1>
+      <h5 class="creative text-center">Creative software</h5>
+      <p class="parrafo-poryecto p-2">Este proyecto nace con la iniciativa de crear software para dar soluciones a los problemas cotidianos de usuarios finales, proveyendo a estos de las herramientas necesarias para reflejar la información de forma fehaciente y concisa de todos los movimientos de su negocio.</p>
+      <p>Fecha inicial del proyecto: 21/06/2022</p>
+      
+    </div> 
+    <div class="col-4">
+      <h2 class="objtivo text-center ">Objetivo:</h2>
+      <ul class="lista p-5">
+        <li>Asesorar sobre la adquisición de hardware para el desarrollo del negocio</li>
+        <li>Brindar el software necesario con la finalidad de reflejar la información de forma trasparente.</li>
+        <li>Trabajo en conjunto con el usuario final, mejorando así los tiempos de respuestas.</li>
+      </ul>
+      
+
+    </div>
+
+  </div>
+ 
+  
+
+</div>
+
+
+
+
 
 </div>
 
@@ -231,14 +264,8 @@ const myChart = new Chart(ctx, {
 </aside>
 
 
-</div>  
-  
-    
-</div>
-   
-    
-   
-<script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></scrip>
  
 </body>
 </html>
