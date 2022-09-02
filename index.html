@@ -19,7 +19,7 @@
   <header class="header">
    <!--div class="container-fluid"-->
     
-    <!--Barra de Navegacion-->
+    <!--inicio Barra de Navegacion-->
      <div class="row align-items-start border-bottom border-primary border border-opacity-10 ">
     
       <div class="col-4">
@@ -33,16 +33,26 @@
         </nav>
         </div>
       
-       <div class="col-4 ">
+       <div class="col-2 ">
   
          
   
        </div>
-       <div class="col-4" >
+       <div class="col-6" >
          <div class="input-group mt-4 w-100 h-50">
-           <input type="text" class="form-control bg-transparent border-0" placeholder="username" aria-label="username" aria-describedby="button-addon2">
-           <input type="text" class="form-control bg-transparent border-0" placeholder="password" aria-label="password" aria-describedby="button-addon2">
-           <button class="btn btn-outline-secondary border-0" type="button" id="button-addon2">Loguin</button>
+          <form class="row g-3 bg-transparent">
+            <div class="col-auto">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="email" class="form-control border-0 bg-transparent" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="col-10">
+              <label for="inputPassword2" class="visually-hidden">Password</label>
+              <input type="password" class="form-control border-0 bg-transparent" id="inputPassword2" placeholder="Password">
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-primary text-danger mb-3 border-0 bg-transparent ">Login</button>
+            </div>
+          </form>
            
            <div class="dropdown m-1">
             <button class="btn btn-outline-secondary dropdown-toggle  text-danger border-0" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
@@ -233,6 +243,7 @@ const myChart = new Chart(ctx, {
   </div>
 </div>
 <!--fin de la seccion de soft and hard skill-->
+<!--inicion de la seccion proyecto-->
   
 <div class="row">
   <h2 class="proyectos text-center ">Proyectos</h2>
@@ -267,7 +278,7 @@ const myChart = new Chart(ctx, {
 
 </div>
 
-
+<!--fin de la seccin proyectos-->
 
 
 
@@ -279,7 +290,7 @@ const myChart = new Chart(ctx, {
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js"></script>
-<script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></scrip>
+<script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
  
 </body>
 </html>
