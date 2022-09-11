@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.header{
+
+    height: 25 rem;
+    background-image: url(./assets/imagenes/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-image: none;
+
+}
+
+.h1{
+
+    font-size: 5rem;
+    color: rgb(56, 12, 98);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h4{
+    color: rgb(56, 12, 98);
+    font-weight: 400;
+}
+/* esto es todo el estilo del banner y la nav bar*/
+/*----------------------------------------------*/
+
+.card-img-top{
+    
+    
+    height: 30%; 
+    border-radius: 500px;
+    position: relative;
+    top: -80px;
+
+}
+
+.aside{
+
+    
+    height: 25 rem;
+    background-image: url(./assets/imagenes/banner2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-image: none;
+}
+/*esto es todo el estilo de la seccion de informacion personal*/
+
+
