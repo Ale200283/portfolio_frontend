@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { BotnhomeComponent } from './componentes/botnhome/botnhome.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { ExperiencialaboralComponent } from './componentes/experiencialaboral/experiencialaboral.component';
 import { HardandsoftskillComponent } from './componentes/hardandsoftskill/hardandsoftskill.component';
@@ -14,7 +15,8 @@ const routes: Routes = [
   {path:'educacion', component: EducacionComponent},
   {path:'hardandsoftskill', component: HardandsoftskillComponent},
   {path:'proyecto', component: ProyectoComponent},
-  {path:'login', component: LoginComponent}
+  {path:'login', component: LoginComponent},
+  {path:'botnhome', component: BotnhomeComponent}
 ];
 
 @NgModule({

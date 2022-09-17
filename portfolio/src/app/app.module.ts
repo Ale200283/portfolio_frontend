@@ -12,6 +12,7 @@ import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './componentes/home/home.component';
+import { BotnhomeComponent } from './componentes/botnhome/botnhome.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { HomeComponent } from './componentes/home/home.component';
     ProyectoComponent,
     LoginComponent,
     HomeComponent,
+    BotnhomeComponent,
     
   ],
   imports: [
